@@ -1,0 +1,35 @@
+{
+  "name": "@lunargorge/rest-utils",
+  "version": "1.0.0",
+  "description": "It is a toolkit for apis - test of concept.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "tslint": "tslint -c tslint.json -p tsconfig.json",
+    "pub": "tsc && npm publish --access=public",
+    "test": "jasmine-ts \"src/**/*.spec.ts\""
+  },
+  "keywords": [
+    "typescript",
+    "API"
+  ],
+  "author": "lunar gorge <lunargorge@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jasmine": "^2.6.0",
+    "randomstring": "^1.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^10.3.1",
+    "jasmine-ts": "^0.2.1",
+    "tslint": "^5.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">= 4.2.1",
+    "npm": ">= 3"
+  }
+}
